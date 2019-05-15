@@ -9,14 +9,16 @@ React + Taro + Dva + Sass + ES6/ES7
 ```
 
 # 全局安装taro脚手架
-npm install -g @tarojs/cli@1.2.2
+yarn global add @tarojs/cli@1.2.2
+//npm install -g @tarojs/cli@1.2.2 -- 会报错
 
 # 项目依赖为1.2.2版本，如要升级，请同时升级项目依赖
 # 如用1.2.2版本，请忽略这句
 taro update project
 
 # 安装项目依赖
-npm install
+yarn /yarn install 
+//npm install   -- 会报错
 
 # 微信小程序
 npm run dev:weapp
