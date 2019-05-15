@@ -7,7 +7,7 @@ import models from './models';
 import {Provider} from '@tarojs/redux';
 
 import './styles/base.scss';
-
+import 'taro-ui/dist/style/index.scss'
 
 const dvaApp = dva.createApp({
     initialState: {},
